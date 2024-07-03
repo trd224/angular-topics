@@ -1,0 +1,7 @@
+<h1>EXAMPLE USING INPUT</h1>
+
+<button (click)="load()">load dynamic component</button>
+<ng-container *ngComponentOutlet="dynamicComponent; inputs: {data: myData}; ">
+    <!-- <span (dataToSend)="onDataReceived($event)"></span> -->
+</ng-container>
+
